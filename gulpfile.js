@@ -345,7 +345,8 @@ function minifyRelease() {
     return combineJavaScript({
         removePragmas: true,
         optimizer: 'uglify2',
-        outputDirectory: path.join('Build', 'Cesium')
+        //outputDirectory: path.join('Build', 'Cesium')
+        outputDirectory: path.join('d:/repos/SmartMaps.UI', 'Cesium')
     });
 }
 

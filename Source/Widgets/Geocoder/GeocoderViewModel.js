@@ -362,7 +362,8 @@ define([
             });
     }
 
-    function flyToDestination(viewModel, destination) {
+        function flyToDestination(viewModel, destination) {
+            alert('flyToDestination');
         var scene = viewModel._scene;
         var mapProjection = scene.mapProjection;
         var ellipsoid = mapProjection.ellipsoid;
